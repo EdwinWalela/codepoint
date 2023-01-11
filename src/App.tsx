@@ -1,11 +1,8 @@
 import './App.css';
+import EditorPage from './pages/editor';
 
 function App() {
-	return (
-		<div className="App">
-			<p>Hello World</p>
-		</div>
-	);
+	return <EditorPage />;
 }
 
 export default App;
